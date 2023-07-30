@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheckIn</title>
+    <link rel="stylesheet" href="./mainLog.css" type="text/css" />
+    <link href="/website/css/uicons-rounded-regular.css" rel="stylesheet" />
+    <link href="./assets/css/all.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
+    <link
+      href="/your-path-to-fontawesome/css/fontawesome.css"
+      rel="stylesheet"
+    />
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <div class="wellcome">
+      May the Force be with you!
+    </div>
+
+    <div class="wrapper-login">
+      
+      <input id="chk" type="checkbox" aria-hidden="true">
+
+      <div class="signup">
+        <form id="signup">
+          <label for="chk">Signup</label>
+          <input id="userName" type="text" placeholder="User" name="name" required="">
+          <input id="emailSignup" type="email" placeholder="Email" name="email" required="">
+          <input id="passwordSignup" type="password" placeholder="Password" name="password" required="">
+
+          <button class="formBtn" type="button">Sign up</button>
+        </form> 
+      </div>
+
+      <div class="login">
+        <form id="login">
+          <label for="chk">Login</label>
+          <input id="emailLogin" type="email" placeholder="Email" name="email" required="">
+          <input id="passwordLogin" type="password" placeholder="Password" name="password" required="">
+
+          <button class="formBtn" type="button">Login</button>
+        </form>
+      </div>
+      
+    </div>
+
+    <script src="./fetch.js"></script>
+    <script src="./login.js"></script>
+  </body>
+</html>

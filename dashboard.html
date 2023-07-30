@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dashboard</title>
+</head>
+<body>
+
+    <div class="logout">
+        Come back to the Dark side!
+    </div>
+    
+    <div class="main">
+        <section>
+            <div class="title-wrapper">
+               <div class="main-title">Hello Jedi <span id="jedi">...</span></div>
+               <div class="title-user">
+                    <div class="avatar"></div>
+                    <button id="logout" class="logout-btn" type="button"><i class="fa-solid fa-xmark" style="color: #ffffff;"></i></button>
+               </div>
+            </div>
+            
+            <div class="todo-body">
+                <div class="todo-cell add-cell">
+                    <input id="task-title" name="task-name" placeholder="Choose your destiny"></input>
+                    <button id="add" class="add-btn task-btn" type="button" clicked=false><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <div class="tasks">
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="notifications">
+        <div class="notification-wrapper">
+        </div>
+    </div>
+
+    <script src="./login/fetch.js"></script>
+    <script src="./dashboard.js"></script>
+</body>
+</html>
